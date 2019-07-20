@@ -1,4 +1,4 @@
-package com.frost.test;
+package com.core.java.algorithms;
 
 import java.util.ArrayList;
 import java.util.Comparator;
