@@ -31,6 +31,18 @@ public class TestQueue {
 		Assert.assertEquals(val4, q.pop());
 		Assert.assertEquals(val5, q.pop());
 
+		q.push(val1);
+		q.push(val2);
+		q.push(val3);
+		q.push(val4);
+		q.push(val5);
+
+		Assert.assertEquals(val1, q.pop());
+		Assert.assertEquals(val2, q.pop());
+		Assert.assertEquals(val3, q.pop());
+		Assert.assertEquals(val4, q.pop());
+		Assert.assertEquals(val5, q.pop());
+
 	}
 
 	@Test(expected = CustomDSException.class)
