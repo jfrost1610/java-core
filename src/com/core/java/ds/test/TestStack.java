@@ -6,7 +6,7 @@ import org.junit.Test;
 import com.core.java.ds.CustomStack;
 import com.frost.exception.CustomDSException;
 
-public class DSTest {
+public class TestStack {
 
 	@Test
 	public void testStack() throws CustomDSException {
